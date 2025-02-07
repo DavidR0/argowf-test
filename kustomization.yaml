@@ -4,7 +4,7 @@ metadata:
   name: kustomize-argo-workflows-dev
 images:
   - name: busybox
-    newName: busybox
+    newName: busyboxytesty
     newTag: latest
 resources:
   - ./templates/testworkflowtemplate.yaml
