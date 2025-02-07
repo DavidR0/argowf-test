@@ -5,12 +5,12 @@ metadata:
 spec:
   entrypoint: print-message
   templates:
-  - name: print-message
-    inputs:
-      parameters:
-      - name: message
-    script:
-      image: busybox
-      # command: [echo]
-      source: |
-        echo "{{inputs.parameters.message}}"
+    - name: print-message
+      inputs:
+        parameters:
+          - name: message
+      script:
+        image: busybox
+        command: [sh]
+        source: |
+          echo "{{inputs.parameters.message}}"
