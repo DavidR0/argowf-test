@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: WorkflowTemplate
+metadata:
+  name: workflow-template-print-message
+spec:
+  entrypoint: print-message
+  templates:
+  - name: print-message
+    inputs:
+      parameters:
+      - name: message
+    script:
+      image: busybox
+      command: [bach, -c]
+      source: |
+        echo "{{inputs.parameters.message}}"
