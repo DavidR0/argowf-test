@@ -3,4 +3,4 @@ kind: Kustomization
 metadata:
   name: kustomize-argo-workflows-dev
 resources:
-  - ./templates/testworkflowtemplate.yaml
+  - ./testworkflowtemplate.yaml
