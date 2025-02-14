@@ -10,7 +10,7 @@ spec:
         parameters:
           - name: message
       script:
-        image: gcr.io/heptio-images/ks-guestbook-demo:0.1
+        image: busybox
         command: [sh]
         source: |
           echo "{{inputs.parameters.message}}"
