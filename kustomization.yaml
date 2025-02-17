@@ -8,5 +8,5 @@ resources:
   - ./templates/testworkflowtemplate.yaml
 images:
   - name: busybox
-    newName: newbusybox
+    newName: totallyOtherIMG
     newTag: latest
