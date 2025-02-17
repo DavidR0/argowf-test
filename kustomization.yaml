@@ -9,4 +9,4 @@ resources:
 images:
   - name: busybox
     newName: busybox
-    newTag: latest
+    newTag: ''
