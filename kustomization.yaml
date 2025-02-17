@@ -8,5 +8,5 @@ resources:
   - ./templates/testworkflowtemplate.yaml
 images:
   - name: busybox
-    newName: busybox
+    newName: newbusybox
     newTag: '1.36.0'

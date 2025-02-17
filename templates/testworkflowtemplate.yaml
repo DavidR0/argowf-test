@@ -10,7 +10,7 @@ spec:
         parameters:
           - name: message
       script:
-        image: busybox
+        image: busybox:1.36.0
         command: [sh]
         source: |
           echo "{{inputs.parameters.message}}"
