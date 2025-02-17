@@ -1,0 +1,3 @@
+images:
+- path: spec/templates[]/script/image
+  kind: WorkflowTemplate
